@@ -1,5 +1,4 @@
 <h1 align="center">Sorting Algorithms</h1>
-<p align="center">Greetings hackers of <a href="https://hacktoberfest.digitalocean.com/">Hacktoberfest</a>! :computer: :tada:</p>
 <div align="center">
     <a href="https://github.com/claesgill/sorting_algorithms/commits">
         <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/claesgill/sorting_algorithms?label=updated">
@@ -16,10 +15,15 @@
     2. [Rules](#rules)
 
 ## Run
-The following command will build and run the program:
+The following command will [build](#build) and run the program:
 
 ```sh
-g++ -std=c++17 main.cpp src/algorithms.cpp && ./a.out
+make
+```
+
+##### Build
+```sh
+make build
 ```
 
 ## Contribute
